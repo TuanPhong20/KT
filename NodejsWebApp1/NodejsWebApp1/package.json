@@ -1,14 +1,17 @@
 {
-  "name": "nodejs-web-app1",
-  "version": "0.0.0",
-  "description": "NodejsWebApp1",
-  "main": "server.js",
-  "author": {
-    "name": ""
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "A simple hello world Node.js app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^8.21.0"
-  },
-  "eslintConfig": {
+    "eslint": "^9.3.0"
   }
 }
